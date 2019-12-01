@@ -14,3 +14,5 @@ require 'pry'
 # description: project.css("p.bbcard_blurb").text
 # location: project.css("ul.project-meta span.location-name").text
 # percent_funded: project.css("ul.project-stats li.first.funded strong").text.gsub("%","").to_i
+
+#.gsub("%", "").to_i
